@@ -1,0 +1,18 @@
+3 BITI
+Section: 1
+Group: 1
+
+Full Name: Reca Seng Binti Mohd Fadzil Seng
+Matric Number: B031910187
+
+Write below a short explanation (how it works, challenges, limitations, etc.) on your simulation answer:
+Since a leader would usually run a bit faster than followers, the linear speed of the leader is set to 700mm/s 
+while the followers have a linear speed of 200mm/s. Both leader and followers have the same maximum range 
+(distance) that they can sense/see, 15000 mm is 15 meters. The scan index of the followers is set to 90, 270 
+so that it can only consider the front-side of the LiDAR scan data to decide where to the leader goes and 
+follow at the back of thier leader.
+On the other hand, the scan index of the leader is set to 0, 360 so that it can consider the all-side of the LiDAR 
+scan data to detect where the Can is. The challenges of this program will be to set the followers to be always slower 
+than the leader and follow the leader from the back. The leader should be the one to reach the can first instead of the
+follower. The limitations of this program will be the if the Can is placed closer to the follower than the leader,
+the follower will reach the Can faster than the leader. 

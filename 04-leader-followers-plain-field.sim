@@ -1,0 +1,16 @@
+# Environment
+world 03-plain-field.wld
+
+settings VIS TRACE
+
+# robotname x y phi
+
+# robot with a leader-like behavior
+Labbot 9000 2750 90 05-leader.py 
+
+# robots with follower-like behaviors
+S4 9000 2000 90 06-followers.py
+S4 9000 1500 90 06-followers.py 
+
+# Objects
+Can 10000 500 0
